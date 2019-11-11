@@ -1,0 +1,26 @@
+#include<stdio.h>
+int fac(int n);
+int main(){
+	int n,a;
+	printf("Enter number");
+	scanf("%d",n);
+	a =fac(n);
+	printf("%d",a);
+	
+	
+}
+
+int fac(int n){
+     int result ;
+	
+	
+	if(n==0){
+		return 1;
+		
+	}
+	
+	else{
+	result = n*fac(n-1);
+	return result;
+	}
+}
