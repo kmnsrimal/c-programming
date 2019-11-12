@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+	int n=1 ,a = 1;
+	while(a<=10){
+	
+	 n = n * a;
+	 a++;
+	 printf("n = %d\n",n);
+	 printf("\n");
+	 printf("a = %d\n",a);
+	 
+	}
+		
+	
+	printf("Factorial 10 =%d",n);
+}
