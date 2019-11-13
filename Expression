@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+	int a = 1, b = 2, c = 3, d = 4;
+	float p,q,r,s;
+	 p = (a+b)/(c+d);
+     q = a+b/(c+d);
+     r = (a+b)/c+d;
+     s = a*b/c*d;
+     
+     printf("%.2f\n",p);
+     printf("%.2f\n",q);
+     printf("%.2f\n",r);
+     printf("%.2f\n",s);
+}
