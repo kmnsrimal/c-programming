@@ -1,0 +1,31 @@
+int main()
+{
+	int m = 40;
+    int n = 20;
+    int o = 20;
+	int p = 30;
+	
+	if(m<n && m!=0)
+	{
+		printf("True\n");
+	}
+	else 
+	
+	    printf("False\n");
+	    
+    if(o>p || p!=20)
+    {
+    	printf("True\n");
+	}
+    else
+       printf("False\n");
+       
+       if (! (m>n && m !=0))
+       {
+       	printf("True");
+	   }
+	   
+	   else
+	   
+	    printf("False");
+}
