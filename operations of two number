@@ -1,0 +1,46 @@
+#include<stdio.h>
+
+double add(float ,float );
+double sub(float ,float );
+double mul(float ,float );
+double div(float ,float );
+void main(void)
+{ float a,b;
+  char Operator;
+  printf("Enter your expression of the form value operator value ");	
+  scanf("%f%c%f",&a,&Operator,&b);
+  
+  switch(Operator)
+  {
+  	case '+': 
+  	   printf("%lf\n", add(a,b));break;
+  	case '-':
+  	    printf("%lf\n", sub(a,b));break;
+    case '*':
+	     printf("%lf\n", mul(a,b));break;
+    case '/':
+	      printf("%lf\n", div(a,b));break;
+		  
+		}
+ }
+ 
+ double add(float a ,float b )
+ {
+    return (a + b); 
+    	 
+ }
+ 
+ double sub(float a,float b)
+ {
+ 	 return (a-b);
+ }
+ double mul(float a ,float b )
+ {
+ 	return (a*b);
+ }
+ double div(float a ,float b)
+ {
+ 	return (a/b);
+ }
+ 
+ 
