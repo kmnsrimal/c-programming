@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	char name[] ="ABC";
+	printf("%c\n",name[0]);
+	printf("%c\n",name[1]);
+	printf("%c\n",name[2]);
+	printf("%c\n",name[3]);
+	printf("%c\n",(name[0] +2));
+	printf("%c\n",&name[2]);
+
+	}
+
