@@ -1,0 +1,26 @@
+#include<stdio.h> 
+int  main()
+{  
+int i,t,n,reverse=0,remainder;
+   printf("enter :");
+   scanf("%d",&n);
+   t=n;
+   while(t!=0)
+   {
+   	remainder = t%10;
+   	
+reverse =reverse*10+remainder;
+
+   	t =t/10;
+  
+   	
+   }
+   
+   if(n==reverse){
+   printf("\nfalindrome");
+   }
+   
+   else{
+   printf("\nnot falindrome");
+   }
+}
