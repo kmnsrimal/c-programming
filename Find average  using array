@@ -1,0 +1,22 @@
+#include<stdio.h>
+# define MAX 20
+int main()
+{
+	int i,total = 0,average;
+	int A[MAX] = {55,35,0,40,75,60,100,50,0,45,80,0};
+	 
+	for(i=0;i<=12;i++)
+	{
+	total = total + A[i];
+	
+	}
+	
+	
+	average = total/12;
+	
+	printf("\n total = %d",total);
+	printf("\n average = %d",average);
+	
+	
+	 
+}
