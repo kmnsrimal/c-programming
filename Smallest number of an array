@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+	
+	int i,n,small=0,pos=0,array[10];
+	printf("Enter the number of elements:");
+	scanf("%d",&n);
+	for(i=0;i<n;i++){
+		printf("array[%d]=",i);
+		scanf("%d",&array[i]);
+	}
+	
+	small = array[0];
+	for(i=1;i<n;i++){
+	
+	if(array[i]<small){
+	small =array[i];
+	pos = i+1;
+	}
+	}
+	printf("smallest no of element is:%d\n",small);
+	printf("position is :%d",pos);
+}
