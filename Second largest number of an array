@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<limits.h>
+int main(){
+int i,n,first,second,array[10];
+
+printf("Enter the number:");
+scanf("%d",&n);
+for(i=1;i<=n;i++){
+	printf("array[%d]=",i);
+	
+	scanf("%d",&array[i]);
+	
+	
+}
+//first = second = INT_MIN;
+for(i=1;i<=n;i++){
+	if(array[i]>first){
+	second = first;
+	first = array[i];
+	}
+	
+	else if(array[i] < first && array[i] > second){
+	second = array[i];
+	}
+}
+	
+
+printf("second largest number is :%d",second);
+return 0;
+	
+}
