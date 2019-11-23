@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	int i,j,n,array[10],deleted;
+	
+	printf("Enter the no of element:");
+	scanf("%d",&n);
+	
+	for(i=0;i<n;i++){
+		printf("array[%d]=",i);
+		scanf("%d",&array[i]);
+	}
+	printf("Enter the number to be deleted:");
+	scanf("%d",&deleted);
+	
+	for(i=0;i<n;j++){
+		if(array[i]== deleted){
+			for(j=i;j<n;j++){
+				array[j]=array[j+1];
+			}
+		}
+		
+		printf("The array after delection is ");
+	for(i=0;i<n-1;i++){
+		printf("\narray[%d]=%d",i,array[i]);
+	}	
+	
+	getch();
+	
+	}
+	return 0;
+	
+	
+}
