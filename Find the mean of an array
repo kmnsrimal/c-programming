@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+int i,n,sum=0,array[10];
+float mean;
+
+printf("Enter the number:");
+scanf("%d",&n);
+for(i=1;i<=n;i++){
+	printf("array[%d]= ",i);
+	scanf("%d",&array[i]);
+	
+	
+}
+for(i=1;i<=n;i++){
+	sum=sum +array[i];
+	printf("sum = %d  ",sum);
+}
+mean=sum/n;
+printf("\nmean=%f",mean);	
+}
