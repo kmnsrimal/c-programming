@@ -1,5 +1,5 @@
 # include <stdio.h>
-int additor ( int a , int b ) ; /* function prototype */
+int additor ( int a , int b ) ; 
 void main (void)
 {
 int x , y , s ;
@@ -11,9 +11,9 @@ s = additor( x , y ) ;
 printf ( "Sum of the two numbers is = %d\n" , s ) ;
 }
 
-int additor ( int a , int b ) /* function declaration */
+int additor ( int a , int b ) 
 {
 static int c = 0 ;
 c = a + b + c ;
-return (c) ; /* function return type */
+return (c) ;
 }
