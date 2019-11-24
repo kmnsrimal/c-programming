@@ -17,10 +17,10 @@ int main(){
 	if(array[j] > 0){
 	sum_positive += array[j]; 	
 	}	
-    else{
+        else{
 
 		sum_negative +=array[j];
-}
+        }
 	}
 	
 	printf("\n sum_positive = %d",sum_positive);	
