@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int main(){
+	
+	int array[10]={-8,9,-100,-80,90,45,-23,-1,0,16};
+	int n =9;
+	
+	int i;
+    printf("Array ");	
+	for(i=0;i<=n;i++){
+		
+	printf("%d ",array[i]);
+	}
+	
+	int j,sum_negative=0,sum_positive=0;
+	for(j=0;j<=n;j++){
+	if(array[j] > 0){
+	sum_positive += array[j]; 	
+	}	
+    else{
+
+		sum_negative +=array[j];
+}
+	}
+	
+	printf("\n sum_positive = %d",sum_positive);	
+	printf("\n sum_negative = %d",sum_negative);
+	
+	
+	return 0;
+}
