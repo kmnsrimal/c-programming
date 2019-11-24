@@ -6,7 +6,7 @@ int main(){
 	int n =9;
 	
 	int i;
-    printf("Array ");	
+        printf("Array ");	
 	for(i=0;i<=n;i++){
 		
 	printf("%d ",array[i]);
