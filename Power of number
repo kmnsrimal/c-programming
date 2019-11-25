@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int power ( int x , int y ) ;
+
+void main ( void )
+{
+  int base , powerRaised;
+  printf("Enter base number:  ") ;
+  scanf ("%d", &base) ;
+  printf("Enter power number (positive integer):  ") ;
+  scanf ("%d", &powerRaised) ;
+  printf("%d raised to the power %d is  %d. \n", base , powerRaised , power(base,powerRaised) ) ;
+}
+
+int power ( int x, int y)
+{
+  long int Result ;
+  if ( y == 0 )
+    Result = 1 ;
+  else 
+    Result = x * power( x , y-1 ) ;
+  return (Result) ;
+}
