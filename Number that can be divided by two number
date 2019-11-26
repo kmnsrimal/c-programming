@@ -9,13 +9,13 @@ int main()
 		
 	if(i%a ==0 && i%b==0)
 	{
-		count++;
+	   count++;
 		
-		printf("%d could be divided by 8 and 12\n",i);
+	   printf("%d could be divided by 8 and 12\n",i);
 		}
 	if (count ==3)
 	{
-		break;
+	  break;
 	}
     }
 	
