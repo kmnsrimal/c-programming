@@ -1,14 +1,15 @@
 #include<stdio.h>
+
 int main(){
 	int i,j,n,array[10],flag;
 	printf("Enter the no of element:");
 	scanf("%d",&n);
-	for(i=0;i<n;i++){
+      for(i=0;i<n;i++){
 		
 		printf("array[%d]=",i);
 		scanf("%d",&array[i]);
 	}
-for(i=0;i<n;i++){
+      for(i=0;i<n;i++){
 	for(j=i+1;j<n;j++){
 		if(array[i]==array[j] && i!=j)
 {
@@ -18,8 +19,8 @@ for(i=0;i<n;i++){
 	}	
 	}
 }	
-if(flag==0){
-	printf("no duplicate");
+       if(flag==0){
+	  printf("no duplicate");
 	
 }
 return 0;
