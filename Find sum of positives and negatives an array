@@ -13,11 +13,12 @@ int main(){
 	}
 	
 	int j,sum_negative=0,sum_positive=0;
-	for(j=0;j<=n;j++){
-	if(array[j] > 0){
-	sum_positive += array[j]; 	
+	
+        for(j=0;j<=n;j++){
+	   if(array[j] > 0){
+	     sum_positive += array[j]; 	
 	}	
-        else{
+           else{
 
 		sum_negative +=array[j];
         }
