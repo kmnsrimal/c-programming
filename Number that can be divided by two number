@@ -7,16 +7,16 @@ int main()
 	for(i=1;i>0;i++)
 	{
 		
-	if(i%a ==0 && i%b==0)
-	{
+	  if(i%a ==0 && i%b==0)
+	  {
 	   count++;
 		
 	   printf("%d could be divided by 8 and 12\n",i);
 		}
-	if (count ==3)
-	{
+	  if (count ==3)
+	  {
 	  break;
-	}
+	  }
     }
 	
 	
