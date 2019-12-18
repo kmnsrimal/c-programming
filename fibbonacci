@@ -1,17 +1,20 @@
 #include<stdio.h>
  int fibo(int n);
+ 
  main(){
- 	int a;
- 	printf("Enter a Value: ");
- 	scanf("%d",&a);
- 	int x;
- 	for (x=0 ; x<a ; x++){
- 		printf("%d ", fibo(x));
+ 
+     int a;
+     printf("Enter a Value: ");
+     scanf("%d",&a);
+     int x;
+    for (x=0 ; x<a ; x++){
+      printf("%d ", fibo(x));
 	 }
  }
 	 
  int fibo(int i){
- 	if(i==0)
+ 	
+	if(i==0)
  	{
  		return 0;
 	}
