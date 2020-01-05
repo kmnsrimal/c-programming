@@ -4,6 +4,7 @@ int main()
         int n = 20;
         int o = 20;
 	int p = 30;
+	int q = 50;
 	
 	if(m<n && m!=0)
 	{
