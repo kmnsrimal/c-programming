@@ -26,7 +26,7 @@ for(i=0;i<n;i++){
 	printf("\n****resultant array is****\n");
 	
 	for(i=0;i<=n;i++){
-	printf("   array[%d]= %d\n",i,array[i]);
+	printf("array[%d]= %d\n",i,array[i]);
 	}
 	
 	return 0;	
