@@ -18,4 +18,4 @@ void split(struct block *fitting_slot,size_t size){
  fitting_slot->next=new;
 }
 void *MyMalloc(size_t noOfBytes){
-struct block *curr,*prev;
+
