@@ -16,3 +16,4 @@ struct memory {
 
 // Starting node 
 
+struct memory *START = NULL;
