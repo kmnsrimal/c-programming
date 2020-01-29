@@ -30,7 +30,8 @@ struct block *curr,*prev;
   curr=curr->next;
  }
  
- //lsclsmmclsamclmclkskcmlkajjdflkdlfd
+ //jlkdjfhafn
+ 
  
 
  
