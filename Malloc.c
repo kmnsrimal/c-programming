@@ -24,5 +24,10 @@ struct block *curr,*prev;
   initialize();
   printf("Memory initialized\n");
  }
+  curr=freeList;
+ while((((curr->size)<noOfBytes)||((curr->free)==0))&&(curr->next!=NULL)){
+  prev=curr;
+  curr=curr->next;
+ }
 
  
