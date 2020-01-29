@@ -29,5 +29,8 @@ struct block *curr,*prev;
   prev=curr;
   curr=curr->next;
  }
+ 
+ //lsclsmmclsa
+ 
 
  
