@@ -30,10 +30,9 @@ struct block *curr,*prev;
   curr=curr->next;
  }
  
- if((curr->size)==noOfBytes){
+if((curr->size)==noOfBytes){
   curr->free=0;
-  
-  
+  result=(void*)(++curr);
   return result;
  }
  
