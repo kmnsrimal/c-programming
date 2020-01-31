@@ -30,7 +30,11 @@ struct block *curr,*prev;
   curr=curr->next;
  }
  
- //jlkdjfh
+ if((curr->size)==noOfBytes){
+  curr->free=0;
+  
+  return result;
+ }
  
  
 
