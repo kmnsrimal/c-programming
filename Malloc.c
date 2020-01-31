@@ -32,7 +32,7 @@ struct block *curr,*prev;
  
 if((curr->size)==noOfBytes){
   curr->free=0;
-  result=(void*)(++curr);
+  result=(void*)(curr++);
   return result;
  }
  
