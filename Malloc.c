@@ -36,6 +36,13 @@ if((curr->size)==noOfBytes){
   return result;
  }
  
+ else{
+  result=NULL;
+  printf("Sorry. No sufficient memory to allocate\n");
+  return result;
+ }
+}
+ 
  
 
  
