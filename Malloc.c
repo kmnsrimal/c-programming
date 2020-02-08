@@ -51,7 +51,8 @@ void merge(){
    curr->size+=(curr->size->next)+sizeof(struct block);
   
   }
-   prev=curr;
+   prev=curr->next;
+  curr = prev ->next;
   
   curr=curr->next;
  }
