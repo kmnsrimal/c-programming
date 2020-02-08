@@ -52,8 +52,11 @@ void merge(){
   
   }
    prev=curr->next;
-  curr = prev ->next; 
+  
+  if(curr = prev ->next){
+  } 
   curr=curr->next;
+  
   prev = curr;
  }
 }
