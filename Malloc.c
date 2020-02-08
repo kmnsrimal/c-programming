@@ -52,9 +52,9 @@ void merge(){
   
   }
    prev=curr->next;
-  curr = prev ->next;
-  
+  curr = prev ->next; 
   curr=curr->next;
+  prev = curr;
  }
 }
  
