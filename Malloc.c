@@ -49,12 +49,9 @@ void merge(){
  while((curr->next)!=NULL){
   if((curr->free) && (curr->next->free)){
    curr->size+=(curr->size->next)+sizeof(struct block);
-  
   }
    prev=curr->next;
   curr=curr->next;
-  
-  
  }
 }
  
