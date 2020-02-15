@@ -45,7 +45,7 @@ if((curr->size)==noOfBytes){
 
 void merge(){
  struct block *curr,*prev;
-
+ cuur = freeList;
  while((curr->next)!=NULL){
   if((curr->free) && (curr->next->free)){
    curr->size+=(curr->size->next)+sizeof(struct block);
