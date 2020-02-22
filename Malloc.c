@@ -55,6 +55,14 @@ void merge(){
   curr=curr->next;
  }
 }
+
+void MyFree(void* ptr){
+ if(((void*)memory<=ptr))){
+  struct block* curr=ptr;
+  --curr;
+  curr->free=1;
+  merge();
+}
  
  
 
