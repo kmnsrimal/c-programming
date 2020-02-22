@@ -60,7 +60,7 @@ void MyFree(void* ptr){
  if(((void*)memory<=ptr))){
   struct block* curr=ptr->next;
   --curr;
-  curr->free=1;
+  curr->next=1;
   merge();
 }
  
