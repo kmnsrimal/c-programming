@@ -57,7 +57,7 @@ void merge(){
 }
 
 void MyFree(void* ptr){
- if(((void*)memory<=ptr))){
+ if(((void*)memory<=ptr)&&(ptr<=(void*)(memory+25000)){
   struct block* curr=ptr;
   --curr;
   curr->next=1;
